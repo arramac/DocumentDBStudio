@@ -25,7 +25,7 @@ namespace Microsoft.Azure.DocumentDBStudio
         /// <summary>
         ///  We can enable when there is emulator.
         /// </summary>
-        public readonly static string LocalEmulatorEndpoint = "https://localhost:443/";
+        public readonly static string LocalEmulatorEndpoint = "https://localhost:8081/";
         // [SuppressMessage("Microsoft.Security", "CS002:SecretInNextLine")]
         public readonly static string LocalEmulatorMasterkey = "C2y6yDjf5/R+ob0N8A7Cgv30VRDJIWEHLM+4QDU5DE2nQ9nDuVTqobD4b8mGGyPMbIZnqyMsEcaGQy67XIw/Jw==";
     }
